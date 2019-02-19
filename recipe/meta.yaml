@@ -1,5 +1,5 @@
 {% set name = "pytest-shutil" %}
-{% set version = "1.4.0" %}
+{% set version = "1.6.0" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 30264779fe32d00985bc1304909ab41d988f66e40b857fec250376a70a5534b4
+  sha256: efe615b7709637ec8828abebee7fc2ad033ae0f1fc54145f769a8b5e8cc3b4ca
 
 build:
   number: 0
