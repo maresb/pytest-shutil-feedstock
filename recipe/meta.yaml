@@ -22,7 +22,7 @@ requirements:
     - path.py
     - pip
     - pytest
-    - python >=2
+    - python >=3.6
     - setuptools
     - setuptools-git
     - six
@@ -33,7 +33,7 @@ requirements:
     - mock
     - path.py
     - pytest
-    - python >=2
+    - python >=3.6
     - six
     - termcolor
 
