@@ -40,8 +40,11 @@ requirements:
 test:
   imports:
     - pytest_shutil
+  commands:
+    - pip check
   requires:
     - pytest
+    - pip
 
 about:
   home: https://github.com/manahl/pytest-plugins
